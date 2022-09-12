@@ -192,8 +192,8 @@ pod/rancher-86cccxxxxx-rjggf   1/1     Running   0          93s
   *NOTE:* Rancher may take several minutes to fully initialize. Please standby while Certificates are being issued, Containers are started and the Ingress rule comes up. If you don't have load balancer then you can manually point `rancher.example.com` to one of the server node for exampler `192.168.56.101` and browse the `https://rancher.example.com` to access the rancher using `admin` username and `Password@123` as password
 
 
-  ![Alt text](rancher1.png "rancher log in page") 
+  ![Alt text](rancher1.PNG "rancher log in page") 
 
-  ![Alt text](rancher2.png "rancher Home page")
+  ![Alt text](rancher2.PNG "rancher Home page")
 
 
