@@ -171,7 +171,7 @@ This *concludes* and the `RKE2` installation in HA mode, Next we will Setup the 
 
 #### Architecture <a name="Architecture"></a>
 We will be going to set up the Rancher using RKE2 on Ubuntu 18.04 VMS. The architecture diagram of our current deployment is shown below:
-![Alt text](Rancher-sa.png "Architecture diagram")   
+![Alt text](rancher-sa.png "Architecture diagram")   
 
 A Standalone RKE2  consists of:
 
@@ -315,7 +315,7 @@ wget https://get.helm.sh/helm-v3.9.4-linux-amd64.tar.gz
   *NOTE:* Rancher may take several minutes to fully initialize. Please standby while Certificates are being issued, Containers are started and the Ingress rule comes up. If you don't have a load balancer then you can manually point `rancher.example.com` to one of the server nodes for example `192.168.56.101` and browse the `https://rancher.example.com` to access the rancher using `admin` username and `Password@123` as password
 
 
-  ![Alt text](rancher1.png "rancher log in page") 
+  ![Alt text](rancher1.PNG "rancher log in page") 
 
   ![Alt text](rancher2.PNG "rancher Home page")
 
