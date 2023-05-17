@@ -321,7 +321,7 @@ wget https://get.helm.sh/helm-v3.9.4-linux-amd64.tar.gz
 
 The below diagram helps you understand the different componets and services involved while access `https://rancher-dev.example.com(For standalone)` or `https://rancher.example.com(for HA)`
 
-![Alt text](rancher-proxy.PNG "Access")
+![Alt text](rancher-proxy.png "Access")
 
 You can get details of each componets such ingress, service and pod using `kubectl describe` command as give below:
 ```
