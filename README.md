@@ -342,7 +342,7 @@ Rules:
   rancher-dev.example.com
                               rancher:80 (10.42.0.15:80,10.42.0.16:80,10.42.0.17:80)
 Annotations:               field.cattle.io/publicEndpoints:
-                             [{"addresses":["10.60.43.103"],"port":80,"protocol":"HTTP","serviceName":"cattle-system:rancher","ingressName":"cattle-system:rancher","ho...
+                             [{"addresses":["192.168.56.105"],"port":80,"protocol":"HTTP","serviceName":"cattle-system:rancher","ingressName":"cattle-system:rancher","ho...
 
 ```
 ```
